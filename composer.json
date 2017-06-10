@@ -1,9 +1,8 @@
 {
 	"name" : "pluf/assort",
-	"description" : "A pluf module to categorize and tag items",
+	"description" : "A pluf module to manage categories and tags",
 	"type" : "library",
 	"license" : "MIT",
-	"version" : "0.1.0",
 	"authors" : [{
 			"name" : "Mostafa Barmshory",
 			"email" : "mostafa.barmshory@dpq.co.ir",
@@ -42,6 +41,8 @@
 		"pluf",
 		"php",
 		"pluf-module",
-		"category"
+		"assort",
+		"category",
+		"tag"
 	]
 }
