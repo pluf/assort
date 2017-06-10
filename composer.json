@@ -1,0 +1,48 @@
+{
+	"name" : "pluf/assort",
+	"description" : "A pluf module to manage categories and tags",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Mostafa Barmshory",
+			"email" : "mostafa.barmshory@dpq.co.ir",
+			"homepage" : "http://dpq.co.ir",
+			"role" : "developer"
+		}, {
+			"name" : "Mohammad Hadi Mansouri",
+			"email" : "mohammad.hadi.mansouri@dpq.co.ir",
+			"homepage" : "http://dpq.co.ir",
+			"role" : "developer"
+		}
+	],
+	"minimum-stability" : "stable",
+	"require" : {
+		"pluf/core" : "^2.1.0",
+		"pluf/cms" : "^2.1.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^5.7.14",
+		"phpunit/php-invoker" : "^1.1",
+		"phpunit/dbunit" : "^2.0",
+		"phpunit/phpunit-story" : "^1.0"
+	},
+	"include-path" : [
+		"src/"
+	],
+	"homepage" : "https://github.com/pluf/assort",
+	"support" : {
+		"email" : "info@pluf.ir",
+		"issues" : "https://github.com/pluf/assort/issues",
+		"forum" : "https://github.com/pluf/assort",
+		"wiki" : "https://github.com/pluf/assort/wiki",
+		"source" : "https://github.com/pluf/assort"
+	},
+	"keywords" : [
+		"pluf",
+		"php",
+		"pluf-module",
+		"assort",
+		"category",
+		"tag"
+	]
+}
