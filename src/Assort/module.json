@@ -1,6 +1,5 @@
 {
   "name": "Assort",
-  "version": "0.1.0",
   "title": "Category and Tag",
   "model": [
 		"Assort_Tag",
