@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Returns Assort_Tag with given name.
+ * Throws an exception (with http code 404) if there is no tag with given name.
+ * @param string $name
+ * @throws Assort_Exception_ObjectNotFound if there is no tag with given name.
+ * @return Assort_Tag
+ */
 function Assort_Shortcuts_GetTagByNameOr404 ($name)
 {
     $q = new Pluf_SQL('name=%s', array(
