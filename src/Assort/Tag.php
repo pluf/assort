@@ -46,7 +46,7 @@ class Assort_Tag extends Pluf_Model
                 'readable' => true
             )
         );
-        
+
         $this->_a['idx'] = array(
             'tag_idx' => array(
                 'col' => 'name',
@@ -62,7 +62,7 @@ class Assort_Tag extends Pluf_Model
     /**
      * \brief پیش ذخیره را انجام می‌دهد
      *
-     * @param $create حالت
+     * @param $create boolean
      *            ساخت یا به روز رسانی را تعیین می‌کند
      */
     function preSave($create = false)
